@@ -1,13 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Rabia Mthani | Website Developer</title>
 </head>
+
 <body>
+  <!-- Navbar -->
+  <nav>
+    <h1>RABIA MITHANI</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="jane-doe" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
+        dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
+        inventore tempore minus nemo, iste ullam illo laboriosam maiores
+        repudiandae quos!
+      </p>
+    </div>
+  </section>
+  <!-- More about -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+      autem deleniti cupiditate molestias quis unde quae totam porro dicta
+      iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+      nostrum dolor minus, libero delectus praesentium perferendis
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+      consequuntur labore? Ea totam voluptas amet!
+    </p>
+  </section>
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
 
-<h1>My Portfolio Website</h1>
-<h2>Rabia Mithani</h2>
-  <a href="rabiya20.github.io">Link</a>
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" loading="lazy" class="icon icon-card" />
+      </div>
 
+      <div class="second-set animate__animated animate__pulse">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="https://www.alert-software.com/hubfs/corporate_background_wallpaper.png" alt="expense-tracker"
+          loading="lazy" class="project-pic" />
+        <h3 class="project-title">Expense Tracker</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="https://www.alert-software.com/hubfs/corporate_background_wallpaper.png" alt="netflic-clone"
+          loading="lazy" class="project-pic" />
+        <h3 class="project-title">Netflix Clone</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="https://www.alert-software.com/hubfs/corporate_background_wallpaper.png" alt="greeny-earth"
+          loading="lazy" class="project-pic" />
+        <h3 class="project-title">Greeny Earth</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xyylngw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Social accounts - Fixed to the right -->
+
+  <!-- Scroll to top -->
+  <div class="socials">
+    <a href="#" target="_blank"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="#" target="_blank"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="#" target="_blank"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="#" target="_blank"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        alt="Github" class="socicon" /></a>
+    <!-- Footer section -->
+    <footer>
+      <!-- <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank">Rabia Mithani</a>
+      </p> -->
+    </footer>
+    <i class="scroll-up" id="scroll-up"><img
+        src="data:image/png;base64,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"
+        class="socicon up-arrow" alt="scroll-up" /></i>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+    <script>
+      // scroll to top functionality
+      const scrollUp = document.querySelector("#scroll-up");
+
+      scrollUp.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      });
+
+      // Nav hamburgerburger selections
+
+      const burger = document.querySelector("#burger-menu");
+      const ul = document.querySelector("nav ul");
+      const nav = document.querySelector("nav");
+
+      burger.addEventListener("click", () => {
+        ul.classList.toggle("show");
+      });
+
+      // Close hamburger menu when a link is clicked
+
+      // Select nav links
+      const navLink = document.querySelectorAll(".nav-link");
+
+      navLink.forEach((link) =>
+        link.addEventListener("click", () => {
+          ul.classList.remove("show");
+        })
+      );
+    </script>
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

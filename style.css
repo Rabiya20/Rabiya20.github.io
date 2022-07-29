@@ -45,7 +45,9 @@ a:hover {
 
 body {
     font-family: var(--font-family);
-    /* background-color: #4756df; */
+    /* background-color: #8b97ff; */
+    background: linear-gradient(35deg, #FFCCCC, #CCFFFF );
+
 }
 
 nav {
@@ -112,7 +114,7 @@ nav ul li {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow); 
 }
 
 .bio h1 {

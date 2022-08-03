@@ -18,8 +18,6 @@
   <title>Rabia Mthani | Website Developer</title>
 
   <!-- Javascript -->
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script src="index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
     integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
     crossorigin="anonymous"></script>
@@ -265,7 +263,7 @@
   <section class="contact" id="contact">
     <div class="contact-form-container">
       <div class="container">
-        <form action="POST" autocomplete="off" onsubmit="sendEmail(); reset(); return false;">
+        <form autocomplete="off">
           <h2>Get In Touch With Me</h2>
           <p>Just drop a messagge, I'll get back to you within 24 Hours :)</p>
           <input type="text" id="name" placeholder="Your Name" class="input-field" required />
@@ -273,7 +271,7 @@
           <input type="text" id="phone" placeholder="Your Phone No." class="input-field" required />
           <textarea id="message" cols="60" rows="4" placeholder="How can I help you?" name="message" class="input-field"
             required></textarea>
-          <button type="submit" class="submit">Send<i></i></button>
+          <button type="submit" class="submit" onclick="sendmail()">Send<i></i></button>
 
         </form>
       </div>
@@ -347,7 +345,7 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script>
     var typing = new Typed(".text", {
-      strings: ["", "Front-end Developer" ,"Web Developer", "Core PHP Developer", "Freelancer"],
+      strings: ["", "Front-end Developer", "Web Developer", "Core PHP Developer", "Freelancer"],
       typeSpeed: 100,
       backSpeed: 40,
       loop: true,
@@ -355,6 +353,12 @@
   </script>
 
   <script>
+
+    function sendmail() {
+      alert('ok!');
+    }
+
+
     function openPage(pageName, elmnt) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");

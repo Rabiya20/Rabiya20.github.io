@@ -399,9 +399,9 @@ footer {
     }
 
     .hero img {
-        height: 37.5rem;
-        width: 30rem;
-        left: -100px;
+        height: 28.5rem;
+        width: 25rem;
+        /* left: -100px; */
 
     }
 
@@ -412,7 +412,7 @@ footer {
     }
 
     .more-about {
-        margin-top: 2rem;
+        margin-top: 4.5rem;
         padding: 1rem 3.5rem;
     }
 
@@ -446,8 +446,8 @@ footer {
 
 @media screen and (max-width: 420px) {
     .hero img {
-        height: 37.5rem;
-        width: 23rem;
+        height: 20.5rem;
+        width: 17rem;
     }
 
     .bio {

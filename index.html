@@ -347,42 +347,15 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script>
     var typing = new Typed(".text", {
-      strings: ["", "Web Developer", "Core PHP Developer", "Freelancer"],
+      strings: ["", "Front-end Developer" ,"Web Developer", "Core PHP Developer", "Freelancer"],
       typeSpeed: 100,
       backSpeed: 40,
       loop: true,
     });
   </script>
 
-
   <script>
-    function sendEmail() {
-      let email = document.getElementById("email").value;
-      let name = document.getElementById("name").value;
-      let message = document.getElementById("message").value;
-      let phone = document.getElementById("phone").value;
-
-      // alert(`you have written ${email} and ${name} and ${phone} and finally ${message}`);
-
-
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "rabiamushtaqmithani@gmail.com",
-        Password: "ldlackivbqykxwpp",
-        To: 'rabiamushtaqmithani@gmail.com',
-        From: email,
-        Subject: "New Inquiry through My Portfolio",
-        Body: message,
-      }).then(
-        message => alert(message)
-      );
-    }
-  </script>
-
-
-
-
-  <script>function openPage(pageName, elmnt) {
+    function openPage(pageName, elmnt) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -397,7 +370,8 @@
     }
 
     // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();</script>
+    document.getElementById("defaultOpen").click();
+  </script>
 </body>
 
 </html>
